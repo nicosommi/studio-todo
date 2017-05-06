@@ -2,7 +2,8 @@
  * @module ui/task-cell.reel
  * @requires montage/ui/component
  */
-var Component = require("montage/ui/component").Component;
+let { Component } = require("montage/ui/component");
+
 
 /**
  * @class TaskCell

@@ -23,6 +23,14 @@
                 "checked": {"<->": "@owner.task.completed"}
             }
         },
+        "image": {
+            "prototype": "digit/ui/image.reel",
+            "properties": {
+                "element": {"#": "image"},
+                "crossOrigin": null,
+                "src": "../../assets/images/icons/apple-touch-icon.png"
+            }
+        },
         "textField": {
             "prototype": "digit/ui/text-field.reel",
             "properties": {
@@ -38,8 +46,9 @@
 </head>
 <body>
     <div data-montage-id="owner" class="TaskCell">
-        <input type="checkbox" data-montage-id="checkbox">
+        <input data-montage-id="checkbox" type="checkbox">
         <input data-montage-id="textField" type="text">
+        <img data-montage-id="image">
     </div>
 </body>
 </html>
